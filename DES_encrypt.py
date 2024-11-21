@@ -3,8 +3,8 @@ from Crypto.Util.Padding import pad
 import base64
 
 # 初始化參數
-data = "113121002".encode('utf-8')  # 明文
-key = b'13121002'  # DES 密鑰 (必須是 8 字節長度)
+data = "12345678".encode('utf-8')  # 明文
+key = b'12345678'  # DES 密鑰 (必須是 8 字節長度)
 
 # DES 加密
 cipher = DES.new(key, DES.MODE_ECB)  # ECB 模式

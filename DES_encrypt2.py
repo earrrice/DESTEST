@@ -28,8 +28,8 @@ def des_encrypt_with_pycryptodome(data, key):
     encrypted_hex = binascii.hexlify(encrypted_data).decode('utf-8').upper() 
     return encrypted_hex
 # 示例數據和密鑰
-data = "113121002"  # 明文
-key = "13121002"  # 密鑰
+data = "12345678"  # 明文
+key = "12345678"  # 密鑰
 
 # 調用加密函數
 encrypted_bin = des_encrypt_with_pycryptodome(data, key)
